@@ -1,3 +1,46 @@
 <resources>
     <string name="app_name">Random Waifu</string>
+    <string name="generate">Generate</string>
+    <string-array name="type">
+        <item>sfw</item>
+        <item>nsfw</item>
+    </string-array>
+    <string-array name="category_nsfw">
+        <item>waifu</item>
+        <item>neko</item>
+        <item>trap</item>
+        <item>blowjob</item>
+    </string-array>
+    <string-array name="category_sfw">
+        <item>waifu</item>
+        <item>neko</item>
+        <item>shinobu</item>
+        <item>megumin</item>
+        <item>bully</item>
+        <item>cuddle</item>
+        <item>cry</item>
+        <item>hug</item>
+        <item>awoo</item>
+        <item>kiss</item>
+        <item>lick</item>
+        <item>pat</item>
+        <item>smug</item>
+        <item>bonk</item>
+        <item>yeet</item>
+        <item>blush</item>
+        <item>smile</item>
+        <item>wave</item>
+        <item>highfive</item>
+        <item>nom</item>
+        <item>bite</item>
+        <item>glomp</item>
+        <item>slap</item>
+        <item>kill</item>
+        <item>kick</item>
+        <item>happy</item>
+        <item>wink</item>
+        <item>poke</item>
+        <item>dance</item>
+        <item>cringe</item>
+    </string-array>
 </resources>
