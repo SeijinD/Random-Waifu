@@ -1,0 +1,2 @@
+rootProject.name = "Random Waifu"
+include ':app'
