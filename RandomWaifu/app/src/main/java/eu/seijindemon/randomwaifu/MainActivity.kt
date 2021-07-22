@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
             Glide.with(this)
                 .load(loadImage)
-                .error(R.drawable.ic_android_black_24dp)
+                .error(R.drawable.waifu)
                 .into(waifu_image)
         }
 
