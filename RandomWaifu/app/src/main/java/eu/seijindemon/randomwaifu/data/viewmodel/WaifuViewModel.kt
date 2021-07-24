@@ -11,7 +11,7 @@ import java.lang.IllegalArgumentException
 
 class WaifuViewModel(private val repository: WaifuRepository): ViewModel() {
 
-    val waifu: MutableLiveData<Waifu> = MutableLiveData()
+    val waifu = MutableLiveData<Waifu>()
 
     private val handler = CoroutineExceptionHandler { _, exception ->
         Log.e("Network", "Caught $exception")

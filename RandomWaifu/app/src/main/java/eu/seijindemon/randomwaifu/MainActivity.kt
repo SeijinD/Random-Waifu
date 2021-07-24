@@ -29,13 +29,13 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
         generate_btn.setOnClickListener {
             waifuViewModel.getWaifu(spinner_type.selectedItem.toString(), spinner_category.selectedItem.toString())
-            val loadImage: String = waifuViewModel.waifu.value?.url.toString()
-            Log.v("TAG", loadImage)
 
-            Glide.with(this)
-                .load(loadImage)
-                .error(R.drawable.waifu)
-                .into(waifu_image)
+            waifuViewModel.waifu.observe(this, { waifu ->
+                Glide.with(this)
+                    .load(waifu.url.toString())
+                    .error(R.drawable.waifu)
+                    .into(waifu_image)
+            })
         }
 
     }
